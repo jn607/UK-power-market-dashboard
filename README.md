@@ -1,8 +1,9 @@
 # UK-power-market-dashboard
 
 This project provides a simple, interactive dashboard for exploring the UK power system using publicly available data from the Elexon BMRS Insights API. It visualises the generation mix across different fuel categories, estimates the resulting carbon intensity of the electricity grid, and compares supply against forecast demand on a half‑hourly basis.
-<img width="698" height="745" alt="image" src="https://github.com/user-attachments/assets/4b55c533-b16e-4252-ba43-8d13c24dbe7f" align=center />
-
+<p align="center">
+  <img width="698" height="745" alt="image" src="https://github.com/user-attachments/assets/4b55c533-b16e-4252-ba43-8d13c24dbe7f" align=center />
+</p>
 
 # Features
 
