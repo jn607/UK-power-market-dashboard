@@ -43,12 +43,6 @@ The script will fetch fresh data from Elexon, process it and launch a Dash serve
 
 If the API is unreachable (for example, due to local network restrictions), the script will look for fallback files FUELINST.csv and TSDF.json in the same directory. You can provide your own copies of these datasets to enable the dashboard to work offline. Otherwise, a descriptive error will be raised.
 
-# Repository Structure
-.
-├── power_market_dashboard.py  # Main script containing the data pipeline and Dash app
-├── README.md                 # This file
-└── requirements.txt          # Python dependencies
-
 # Notes
 
 Data freshness — Elexon's FUELINST and TSDF endpoints provide near real‑time information. When you run the script, it downloads the most recently published intervals. No historical date filtering is implemented because Elexon's API currently returns only recent data without specifying time ranges.
